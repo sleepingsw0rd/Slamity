@@ -8,7 +8,8 @@ DSP derived from [Airwindows](https://www.airwindows.com/) by Chris Johnson (MIT
 
 ## Download
 
-**[Download Slamity v1.0.0 VST3 + AU (Mac Universal)](https://github.com/sleepingsw0rd/Slamity-Mac/releases/tag/v1.0.0)**
+- **[Mac — VST3 + AU (Universal Binary)](https://github.com/sleepingsw0rd/Slamity-Mac/releases/tag/v1.0.0)**
+- **[Windows — VST3 (x64)](https://github.com/sleepingsw0rd/Slamity/releases/tag/v1.0.0)**
 
 ## Features
 
