@@ -453,7 +453,7 @@ void SlamityProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::Midi
     vuMackOutPad.store((float)(std::sqrt(rmsAccMackPad * invN * 0.5) * mackInTrimParam * 10.0), std::memory_order_relaxed); // scaled by In Trim
     vuDrumDrive.store((float)(std::sqrt(rmsAccDrumDrive * invN * 0.5) * 1.5), std::memory_order_relaxed);      // +50%
     vuDrumOutput.store((float)(std::sqrt(rmsAccDrumOut * invN * 0.5) * 1.75), std::memory_order_relaxed);      // +75%
-    vuMainOutput.store((float)(std::sqrt(rmsAccMainOut * invN * 0.5) * 2.25), std::memory_order_relaxed);      // +125%
+    vuMainOutput.store((float)(std::sqrt(rmsAccMainOut * invN * 0.5) * 3.375), std::memory_order_relaxed);     // +237.5%
 }
 
 //==============================================================================
